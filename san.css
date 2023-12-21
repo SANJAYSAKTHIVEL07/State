@@ -1,0 +1,137 @@
+*{
+    margin: opx;
+    padding:0px;
+}
+#i{
+    width: 100%;
+}
+#a{
+ text-align: center;
+ font-style: italic;
+}
+
+#h3{
+    color: rgba(0, 8, 255, 0.738);
+   font-family: cursive;
+   font-size: 20px;
+   font-style: italic;
+}
+
+.id:hover{
+    box-shadow:solid 2px 3px 4px 3px black;
+}
+.title2{
+   
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#chinna{
+color: black;
+}
+#act:active{
+    translate: right;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #a{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .title2{
+        position: relative;
+        left: -18px;
+    }
+
+    #chinna{
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    #act{
+        text-align: center;
+    }
+
+    #img{
+        position: relative;
+        top:-15px;
+        border-radius: 15px;
+        left: 15px;
+        width: 85%;
+    }
+
+    #details{
+        position: relative;
+        left: 20px;
+    }
+
+    #details1{
+        position: relative;
+        left: 20px;
+        font-weight: 600;
+        justify-content: space-between;
+    }
+
+    .info{
+        color: blue;
+        text-align: center;
+        margin-right: 27px;
+    }
+
+    .otherinfo{
+        margin-left: 10px;
+    }
+
+    .otherinfo ol{
+        list-style: none;
+    }
+    .otherinfo h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .Garbage{
+        margin-left: 10px;
+    }
+
+    .Garbage h3{
+        font-size: 25px;
+    }
+
+    .about{
+        margin-left: 10px;
+    }
+
+    .know h2{
+        font-size: 20px;
+    }
+
+    span{
+        color: red;
+        margin-left: 27px;
+    }
+    
+    .know{
+        font-size: 16px;
+    }
+
+    .demo{
+        margin: 0px 5x;
+    }
+
+    .demo h2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+
+.parent{
+    background-image: linear-gradient(to right, rgb(113, 211, 113),pink, rgb(0, 221, 255));
+}
+}
